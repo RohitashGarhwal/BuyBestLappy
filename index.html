@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Best Lappy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+</head>
+
+<body>
+    <header>
+        <h1>Buy Best Lappy</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="./Pages/BestSeller.html">Best Sellers</a></li>
+            <li><a href="#image1">Services</a></li>
+            <li><a href="#About">About us</a></li>
+        </ul>
+        <div class="icon-buttons">
+            <button id="theme-toggle" title="Toggle Dark/Light Mode">
+                <i class="fas fa-sun" id="theme-icon"></i>
+            </button>
+            <button id="search-btn" title="Search">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </nav>
+    <main>
+        <div class="landingPage">
+            <div class="MainImg">
+                <img src="./images/MainImage.jpg" alt="">
+                <div class="buttons-container">
+                    <a href="./Pages/fifty.html" class="main-button" data-original-text="Under 50k">Under 50k</a>
+                    <a href="./Pages/sixty.html" class="main-button" data-original-text="50k-65k">50k-65k</a>
+                    <a href="./Pages/seventy.html" class="main-button" data-original-text="65k-80k">65k-80k</a>
+                    <a href="./Pages/Eighty.html" class="main-button" data-original-text="above 80k">above 80k</a>
+                </div>
+            </div>
+            <div class="feature-boxes">
+                <div id="image1" class="feature-box">
+                    <img src="./images/Image3.jpg" alt="Box 1 Image">
+                    <div id="box1" class="box1">
+                        <h3 style="color: rgb(211, 1, 1);">Expert Advice</h3>
+                        <p style="color: #b31414;">Let Our Experts Guide You</p>
+                        <a href="link1.html" class="cta-button">Learn More</a>
+                    </div>
+
+                </div>
+                <div class="feature-box">
+                    <img src="./images/Image2.jpg" alt="Box 2 Image">
+                    <div class="box2">
+                        <h3 style="color: rgb(216, 2, 2);">Customer Support</h3>
+                        <p style="color: #a51818;">We offer 24/7 customer support</p>
+                        <a href="link2.html" class="cta-button">Learn More</a>
+                    </div>
+
+                </div>
+            </div>
+            <section class="new-section container">
+                <div class="circle-image">
+                    <img src="./images/Image2.jpg" alt="Circular Image">
+                </div>
+                <div class="text-content">
+                    <h2>Get the Latest Updates and Offers</h2>
+                    <p>
+                        LaptopBuyingGuide keeps you updated with the latest laptop models and offers from different
+                        brands. Subscribe to our newsletter to stay updated on the latest laptop trends and deals.
+                    </p>
+                </div>
+            </section>
+            <section class="container buying-guide">
+                <h2>How to Choose the Right Laptop</h2>
+                <p>Discover the key factors to consider when buying a laptop that meets your needs. Begin by
+                    identifying your primary use—whether it's for work, gaming, or multimedia. Assess the processor,
+                    RAM, and storage capacity, ensuring they meet your performance requirements. Consider the display
+                    size and resolution for comfortable usage. Battery life is crucial for mobility, while graphics
+                    capabilities matter for gaming or design tasks. Additionally, factor in build quality, keyboard
+                    comfort, and port availability. Finally, establish a budget that aligns with your priorities. By
+                    carefully evaluating these aspects, you can confidently select a laptop tailored to your lifestyle
+                    and computing demands.</p>
+                <a href="https://www.wired.com/story/how-to-buy-the-right-laptop-for-you/" class="cta-button">Read the
+                    Buying Guide</a>
+            </section>
+
+            <form class="newsletter-form">
+                <label for="email">Subscribe to our Newsletter:</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <button type="submit" style="background-color: red; color: white; border-radius: 5px;">Subscribe</button>
+                <p id="subscription-message" style="color: green; visibility: hidden;"></p> 
+            </form>
+
+            <section id="About" class="footer-section">
+                <div style="background-color: #1a1919; padding: 20px; color: white; text-align: center;">
+                    <div>
+                        <h3>Contact Us</h3>
+                        <p>Email: info@laptopbuyingguide.com</p>
+                        <p>Phone: +910000000000</p>
+                    </div>
+                    <div>
+                        <h3>Follow Us</h3>
+                        <a href="#" style="color: white; text-decoration: none; margin-right: 10px;">Facebook</a>
+                        <a href="#" style="color: white; text-decoration: none; margin-right: 10px;">Twitter</a>
+                        <a href="#" style="color: white; text-decoration: none;">Instagram</a>
+                    </div>
+                </div>
+                <div style="background-color: black; color: white; text-align: center; padding: 10px;">
+                    <p>&copy; 2023 Laptop Buying Guide</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
